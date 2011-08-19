@@ -1,0 +1,3 @@
+checkout this repo then symlink it to your home directory.
+
+ln -s ~/repolocation/tmux.conf ~/.tmux.conf
