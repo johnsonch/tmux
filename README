@@ -1,3 +1,5 @@
 checkout this repo then symlink it to your home directory.
 
 ln -s ~/repolocation/tmux.conf ~/.tmux.conf
+for the battery status to work
+ln -s ~/repolocation/power.sh /usr/local/bin/
