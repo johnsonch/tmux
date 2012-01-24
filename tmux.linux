@@ -46,8 +46,8 @@ set-option -g status-interval 30
 set-window-option -g monitor-activity on
 set-option -g status-left-length 10
 set-option -g status-left "#[fg=green]#H"
-set-option -g status-right-length 45
-set-option -g status-right "%I:%M %p #[fg=yellow][Bat: #(sh /usr/local/bin/power.sh)]#[fg=green]#(uptime | cut -d ',' -f 4-)"
+set-option -g status-right-length 35
+set-option -g status-right "%I:%M %p #[fg=green]#(uptime | cut -d ',' -f 4-)"
 
 # # default statusbar colors
 set-option -g status-fg white
